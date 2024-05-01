@@ -180,9 +180,7 @@
 .max-w-386{
   max-width: 386px;
 }
-.h-476{
-  height: 550px;
-}
+
 
 /* btn */
 .comn-btn {
@@ -244,7 +242,7 @@
   padding: 16px 4px 29px 12px;
   min-height: 370px;
   max-height: 370px;
-  max-width: 364px;
+  max-width: 392px;
 }
 .next-btn {
   right: 20%;
@@ -459,6 +457,9 @@
     min-height: 400px;
     max-height: 400px;
     max-width: 364px;
+  }
+  .h-lg-550{
+    height: 550px;
   }
 }
 

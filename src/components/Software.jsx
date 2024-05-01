@@ -7,7 +7,7 @@ import many from '../assets/images/money-bag.webp';
 const Software = () => {
   return (
     <div data-aos="fade-down" className='position-relative py-lg-100'>
-                <span className=' position-absolute Corveline3'><Corveline3/></span>
+                <span className=' position-absolute Corveline3 d-none d-sm-block'><Corveline3/></span>
       <div className=' container'>
          <h2 className=' font-jost fw-medium fs-xl1 lh-xl1 max-w-1057 text-center text-white'>“From Confused to Coder”: Kodeden's Exclusive 6-Month <span className='gradint-clr'>Software Engineering</span> Course </h2>
          <p className=' font-jost fw-normal fs-sm1 lh-sm text-lightwhite text-center '>Through twice-weekly live lectures and at-home exercises, you’ll:</p>
