@@ -19,7 +19,7 @@ const Mynav = () => {
             <ul
               className={`${
                 nav && "start-0"
-              }  d-flex gap-5 align-items-center  mobileView `}
+              }  d-flex gap-32 align-items-center  mobileView `}
             >
               <li>
                 <a

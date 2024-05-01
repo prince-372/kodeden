@@ -5,7 +5,7 @@ const Commanbtn = (props) => {
       <>
           <div className={`comn-btn d-flex gap-2 ${props.cstm}`}>
             <Phone/>
-              <a href=""
+              <a href="tel:+918222022021"
                 className=" text-uppercase  font-jost fw-black fs-md lh-md text-white"              >
                 {props.text}
               </a>

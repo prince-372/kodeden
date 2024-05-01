@@ -1,5 +1,5 @@
 import React from "react";
-import twomen from "../assets/images/twomen.png";
+import twomen from "../assets/images/twomen.webp";
 import Commanbtn from "./Commanbtn";
 import { Corveline3 } from "./Icons";
 
@@ -57,7 +57,7 @@ const Wesec = () => {
         </div>
         <hr  className=" line m-0 "/>
         <div className=" container ">
-            <p className=" font-jost fw-normal fs-md1 lh-sm text-lightgray1 d-flex justify-content-end py-lg-65 py-20 m-0 ">Privacy Policy | Terms of Service | Cookie Policy</p>
+            <p className=" font-jost fw-normal fs-md1 lh-sm text-lightgray1 d-flex  justify-content-center text-center justify-content-lg-end py-lg-65 py-20 m-0 ">Privacy Policy | Terms of Service | Cookie Policy</p>
         </div>
     </div>
   );

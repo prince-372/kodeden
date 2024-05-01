@@ -1,18 +1,19 @@
 import React from "react";
-import sliderimg1 from "../assets/images/slider1st-img.png";
-import sliderimg2 from "../assets/images/slider2nd-img.png";
-import sliderimg3 from "../assets/images/slider3rd-img.png";
+import sliderimg1 from "../assets/images/slider1st-img.webp";
+import sliderimg2 from "../assets/images/slider2nd-img.webp";
+import sliderimg3 from "../assets/images/slider3rd-img.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import { Linkedin } from "./Icons";
+import Commanbtn from "./Commanbtn";
 
 const Student = () => {
   return (
-    <div data-aos="zoom-in" className="mt-208">
+    <div data-aos="zoom-in" className="mt-208 pt-lg-88">
       <div className="container position-relative">
-        <h2 className="text-lightwhite fs-xl1 fw-medium text-center text-uppercase  lh-xl1 m-0 pb-5">
+        <h2 className="text-lightwhite fs-xl1 fw-medium text-center text-capitalize  lh-xl1 m-0 pb-5">
           What our <span className="gradint-clr">students</span> are saying
         </h2>
         <Swiper
@@ -159,6 +160,9 @@ slidesPerView: 3,
             </div>
           </SwiperSlide>
         </Swiper>
+        <div className=' d-inline-block d-flex justify-content-center mt-5 mt-sm-0 '>
+                  <Commanbtn text='Book a Call NOW'/>
+              </div>
         <button className="bg-transparent prev border-0 hover-scale position-absolute z-2 prev-btn">
           <svg
             width="44"
@@ -181,8 +185,8 @@ slidesPerView: 3,
                 y2="32.2782"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FF2801" />
-                <stop offset="1" stop-color="#FF6B0A" />
+                <stop stopColor="#FF2801" />
+                <stop offset="1" stopColor="#FF6B0A" />
               </linearGradient>
             </defs>
           </svg>
@@ -215,8 +219,8 @@ slidesPerView: 3,
                 y2="32.2782"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FF2801" />
-                <stop offset="1" stop-color="#FF6B0A" />
+                <stop stopColor="#FF2801" />
+                <stop offset="1" stopColor="#FF6B0A" />
               </linearGradient>
             </defs>
           </svg>

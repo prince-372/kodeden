@@ -1,12 +1,12 @@
 import React from 'react'
 import { Arrow, Corveline3 } from './Icons';
-import cartoon from '../assets/images/cartoon-men.png';
-import Album from '../assets/images/album.png';
-import many from '../assets/images/money-bag.png';
+import cartoon from '../assets/images/cartoon-men.webp';
+import Album from '../assets/images/album.webp';
+import many from '../assets/images/money-bag.webp';
 
 const Software = () => {
   return (
-    <div data-aos="fade-down" className='position-relative'>
+    <div data-aos="fade-down" className='position-relative py-lg-100'>
                 <span className=' position-absolute Corveline3'><Corveline3/></span>
       <div className=' container'>
          <h2 className=' font-jost fw-medium fs-xl1 lh-xl1 max-w-1057 text-center text-white'>“From Confused to Coder”: Kodeden's Exclusive 6-Month <span className='gradint-clr'>Software Engineering</span> Course </h2>

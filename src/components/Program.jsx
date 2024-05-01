@@ -1,5 +1,5 @@
 import React from "react";
-import twowomen from "../assets/images/2women.png";
+import twowomen from "../assets/images/2women.webp";
 
 const Program = () => {
   return (
@@ -8,7 +8,7 @@ const Program = () => {
         <div className="col-lg-6 col-12 d-flex justify-content-center  ">
           <img className=" w-100 max-w-488" src={twowomen} alt="twowomen" />
         </div>
-        <div className="col-lg-6 col-12">
+        <div className="col-lg-6 col-12 pt-3 pt-lg-0">
           <h2 className=" font-jost fw-medium fs-xl1 lh-xl1 text-white max-w-558 mx-auto mx-lg-0  text-center text-lg-start">
             Are You A Good Fit For Our Program?
           </h2>

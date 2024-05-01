@@ -26,7 +26,7 @@
   --lh-sm: 20px;
   --lh-sm1: 25px;
   --lh-md: 28px;
-  --lh-md1: 32px;
+  --lh-md1: 22px;
   --lh-lg: 36px;
   --lh-lg1: 26px;
   --lh-xl: 47px;
@@ -121,7 +121,7 @@
 }
 
 .bg-headerimg {
-  background-image: url("./assets/images/header-img.png");
+  background-image: url('./assets/images/header-img.webp');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 540px;
@@ -208,7 +208,9 @@
 }
 
 /* padding */
-
+.gap-32{
+  gap: 32px;
+}
 .py-50 {
   padding: 50px 0 ;
 }
@@ -237,15 +239,17 @@
   border: 0.75px solid #e4e4e4;
   border-radius: 2px;
   padding: 16px 4px 29px 12px;
+  min-height: 370px;
+  max-height: 370px;
   max-width: 364px;
 }
 .next-btn {
   right: 20%;
-  bottom:0%;
+  bottom:10%;
 }
 .prev-btn {
   left: 20%;
-  bottom:0%;
+  bottom:10%;
 }
 .icon-bar {
   height: 144px;
@@ -438,18 +442,26 @@
     padding-top: 73px !important;
   }
   .next-btn {
-    right: -5%;
+    right: -3%;
     top: 13%;
   }
   .prev-btn {
     left: -5%;
     top: 13%;
   }
+  .slider-card {
+    border: 0.75px solid #e4e4e4;
+    border-radius: 2px;
+    padding: 16px 4px 29px 12px;
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 364px;
+  }
 }
 
 @media (min-width: 768px) {
   .bg-headerimg {
-    background-image: url("./assets/images/header-img.png");
+    background-image: url("./assets/images/header-img.webp");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 810px;

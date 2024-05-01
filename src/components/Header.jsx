@@ -1,5 +1,5 @@
 import React from "react";
-import student from '../assets/images/student-stadyimg.png';
+import student from '../assets/images/student-stadyimg.webp';
 import Commanbtn from "./Commanbtn";
 import { Corveline, Inlinked, Insta, Taligram, Twiter } from "./Icons";
 
