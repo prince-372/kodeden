@@ -34,10 +34,8 @@ function App() {
         <Priloder />
       ) : (
         <>
-          <div className="bg- ">
             <Mynav />
             <Header />
-          </div>
           <Course />
           <Software />
           <Program />

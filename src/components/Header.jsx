@@ -12,7 +12,7 @@ const Header = () => {
           Start the Mini-Course: <span className="gradint-clr">Rapidly Learning New Technical Skills</span>
         </p>
         <p className=" font-jost fw-semibold fs-lg lh-lg1 max-w-545 mx-auto  text-center text-white text-uppercase ">Learn All The Skills You Need To Become a Software Engineer!</p>
-        <span className=" d-flex justify-content-center align-items-center  "><img className=" w-100 " src={student} alt="student" /></span>
+        <span className=" d-flex justify-content-center align-items-center  "><img className=" w-100 h-476 " src={student} alt="student" /></span>
         <p className=" fs-lg fw-semibold font-jost lh-md1 text-center text-white pt-4 text-uppercase ">Become a <span className="gradint-clr">Software</span> Engineer Now!</p>
         <p className=" fw-normal fs-sm1 font-jost lh-sm1 text-lightgray1 text-center ">No Math or Science Background Needed</p>
         <span className=" d-flex  justify-content-center ">
