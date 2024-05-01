@@ -6,7 +6,7 @@ const Program = () => {
     <div data-aos="zoom-in" id="Program" className=" container py-lg-100 py-50">
       <div className="row align-items-center">
         <div className="col-lg-6 col-12 d-flex justify-content-center  ">
-          <img className=" w-100 " src={twowomen} alt="twowomen" />
+          <img className=" w-100 max-w-488" src={twowomen} alt="twowomen" />
         </div>
         <div className="col-lg-6 col-12">
           <h2 className=" font-jost fw-medium fs-xl1 lh-xl1 text-white max-w-558 mx-auto mx-lg-0  text-center text-lg-start">

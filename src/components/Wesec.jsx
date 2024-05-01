@@ -16,7 +16,7 @@ const Wesec = () => {
               <img className=" w-100 max-w-474" src={twomen} alt="twomen" />
             </div>
             <div className="col-lg-6 col-12">
-              <p className=" font-jost fw-normal fs-sm lh-sm text-lightwhite  ">
+              <p className=" font-jost fw-normal fs-sm lh-sm text-lightwhite  text-center text-lg-start">
                 MEET YOUR INSTRUCTORS
               </p>
               <p className=" font-jost fw-medium fs-lg1 lh-lg1 text-white max-w-362 mx-auto mx-lg-0  text-center text-lg-start">

@@ -17,8 +17,8 @@ const Kodeden = () => {
                   <Commanbtn text='Book a Call NOW'/>
               </div>
           </div>
-          <div className="col-lg-5 col-12">
-              <img className=' w-100 ' src={kodeden} alt="kodeden" />
+          <div className="col-lg-5 col-12 d-flex justify-content-center ">
+              <img className=' w-100 max-w-386' src={kodeden} alt="kodeden" />
           </div>
       </div>
       </div>
