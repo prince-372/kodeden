@@ -5,7 +5,7 @@ import { Corveline1 } from './Icons'
 
 const Kodeden = () => {
   return (
-    <div data-aos="fade-down" className=' position-relative pt-lg-73'>
+    <div data-aos="fade-down" className=' position-relative pt-lg-73 overflow-hidden '>
       <span className=' position-absolute kodeden'><Corveline1/></span>
       <div className=' container py-lg-100 py-50'>
       <div className="row align-items-center flex-column-reverse flex-lg-row">

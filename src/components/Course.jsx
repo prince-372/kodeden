@@ -6,7 +6,7 @@ import { Corveline1 } from './Icons';
 const Course = () => {
   return (
     <>
-        <div data-aos="fade-down" className=' container py-lg-150 py-50'>
+        <div data-aos="fade-down" className=' container py-lg-150 py-50 overflow-hidden '>
           <div className=' row justify-content-center align-items-center flex-column-reverse flex-lg-row'>
            <div className=' col-lg-7 col-12 position-relative pt-3 pt-lg-0 '>
         <span className=' position-absolute corveline2'><Corveline1/></span>

@@ -5,7 +5,7 @@ import { Corveline3 } from "./Icons";
 
 const Wesec = () => {
   return (
-    <div data-aos="fade-down" id="works" className=" position-relative ">
+    <div data-aos="fade-down" id="works" className=" position-relative overflow-hidden ">
       <span className=" position-absolute soft-elipes d-none d-sm-block"><Corveline3/></span>
         <div className=" container py-lg-100 py-50 ">
           <h2 className=" font-jost fw-medium fs-xl1 lh-xl1 text-center text-white">

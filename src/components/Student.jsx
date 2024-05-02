@@ -11,7 +11,7 @@ import Commanbtn from "./Commanbtn";
 
 const Student = () => {
   return (
-    <div data-aos="zoom-in" className="mt-208 pt-lg-88">
+    <div data-aos="zoom-in" className="mt-208 pt-lg-88 overflow-hidden ">
       <div className="container position-relative">
         <h2 className="text-lightwhite fs-xl1 fw-medium text-center text-capitalize  lh-xl1 m-0 pb-5">
           What our <span className="gradint-clr">students</span> are saying
@@ -40,12 +40,11 @@ slidesPerView: 3,
           <SwiperSlide >
             <div className="slider-card">
               <h4 className=" m-0 fw-normal fs-md1 lh-lg text-white">
-                Ross O’Rourke Founder, iC-1 <br /> Solutions. CEO Agile Onboarding
+                Ross O’Rourke Founder, iC-1 <span className=" d-block "> Solutions. CEO Agile Onboarding</span>
               </h4>
               <p className="m-0 fs-sm1 fw-normal text-lightgray1 lh-lg-t pt-1 pb-1">
                 Vitae elit dapibus facilisis magna. Sem amet sem ullamcorper augue
-                magna egestas sit tempus, cras. Mauris gravida elit eget mi et
-                vitae viverra duis eget. Aliquam, quisque gravida est pretium
+                magna egestas sit tempus, cras. quisque gravida est pretium
                 suscipit vel. Non blandit eget tortor netus pellentesque mauris,
                 diam.{" "}
               </p>
@@ -102,7 +101,7 @@ slidesPerView: 3,
           <SwiperSlide >
             <div className="slider-card">
               <h4 className=" m-0 fw-normal fs-md1 lh-lg text-white">
-                Leslie Sage Director of Data <br /> Science at DevResults
+                Leslie Sage Director of Data <span className=" d-block "> Science at DevResults</span>
               </h4>
               <p className="m-0 fs-sm1 fw-normal text-lightgray1 lh-lg-t pt-1 pb-1">
                 Vitae elit dapibus facilisis magna. Sem amet sem ullamcorper augue

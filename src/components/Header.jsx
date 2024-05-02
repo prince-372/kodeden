@@ -6,7 +6,7 @@ import { Corveline, Inlinked, Insta, Taligram, Twiter } from "./Icons";
 const Header = () => {
   return (
     <>
-      <div id="Home" className=" container pt-73 pt-5  position-relative ">
+      <div id="Home" className=" container pt-73 pt-5  position-relative overflow-hidden ">
         <span className=" position-absolute corveline"><Corveline/></span>
         <p className=" fw-semibold fs-xl lh-lg1 font-jost text-center text-white text-uppercase max-w-1089">
           Start the Mini-Course: <span className="gradint-clr">Rapidly Learning New Technical Skills</span>
@@ -20,10 +20,10 @@ const Header = () => {
         </span>
       </div>
       <div className=" position-fixed icon-bar top-40 d-flex flex-column align-items-center justify-content-center gap-md-2 z-2   ">
-        <Twiter/>
-        <Insta/>
-        <Taligram/>
-        <Inlinked/>
+        <Twiter className=" side-bar"/>
+        <Insta className=" side-bar"/>
+        <Taligram className=" side-bar"/>
+        <Inlinked className=" side-bar"/>
       </div>
     </>
   );

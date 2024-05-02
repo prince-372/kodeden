@@ -3,7 +3,7 @@ import twowomen from "../assets/images/2women.webp";
 
 const Program = () => {
   return (
-    <div data-aos="zoom-in" id="Program" className=" container py-lg-100 py-50">
+    <div data-aos="zoom-in" id="Program" className=" container py-lg-100 py-50 overflow-hidden ">
       <div className="row align-items-center">
         <div className="col-lg-6 col-12 d-flex justify-content-center  ">
           <img className=" w-100 max-w-488" src={twowomen} alt="twowomen" />
