@@ -19,7 +19,7 @@ const Header = () => {
           <Commanbtn  text='Book a Call NOW'/>
         </span>
       </div>
-      <div className=" position-fixed icon-bar top-40 d-flex flex-column align-items-center justify-content-center gap-md-2 z-3  ">
+      <div className=" position-fixed icon-bar top-40 d-flex flex-column align-items-center justify-content-center gap-md-2 z-2   ">
         <Twiter/>
         <Insta/>
         <Taligram/>

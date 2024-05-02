@@ -52,7 +52,7 @@ slidesPerView: 3,
               <p className="fw-semibold fs-sm1 lh-lg-t text-white pt-6 m-0">
                 Read More...
               </p>
-              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-26">
+              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-0 pt-sm-4">
                 <div className="d-flex align-items-center">
                   <img width={52} height={52} src={sliderimg1} alt="img1-slider" />
                   <div className="ps-2 ms-1">
@@ -83,7 +83,7 @@ slidesPerView: 3,
               <p className="fw-semibold fs-sm1 lh-lg-t text-white pt-6 m-0">
                 Read More...
               </p>
-              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-26">
+              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-0 pt-sm-4 ">
                 <div className="d-flex align-items-center">
                   <img width={52} height={52} src={sliderimg2} alt="img1-slider" />
                   <div className="ps-2 ms-1">
@@ -114,7 +114,7 @@ slidesPerView: 3,
               <p className="fw-semibold fs-sm1 lh-lg-t text-white pt-6 m-0">
                 Read More...
               </p>
-              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-26">
+              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-0 pt-sm-4 ">
                 <div className="d-flex align-items-center">
                   <img width={52} height={52} src={sliderimg3} alt="img1-slider" />
                   <div className="ps-2 ms-1">
@@ -143,7 +143,7 @@ slidesPerView: 3,
               <p className="fw-semibold fs-sm1 lh-lg-t text-white pt-6 m-0">
                 Read More...
               </p>
-              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-26">
+              <div className="d-flex align-items-center pe-3 me-1 justify-content-between pt-0 pt-sm-4 ">
                 <div className="d-flex align-items-center">
                   <img width={52} height={52} src={sliderimg2} alt="img1-slider" />
                   <div className="ps-2 ms-1">

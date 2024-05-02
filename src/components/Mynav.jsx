@@ -5,14 +5,14 @@ const Mynav = () => {
   const [nav, setNav] = useState(false);
   function show() {
     setNav(!nav);
-    if (nav) {
-      document.body.classList.add("overflow-hidden");
+    if (nav === false) {
+      document.body.classList.add("max-lg-overflow-hidden");
     } else {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("max-lg-overflow-hidden");
     }
   }
   return (
-    <section className=" position-relative  z-3 ">
+    <section className=" position-relative z-3  ">
       <div className=" container pt-3">
         <div className=" d-flex justify-content-end ">
           <nav>
@@ -23,7 +23,7 @@ const Mynav = () => {
             >
               <li>
                 <a
-                  onClick={() => setNav(false)}
+                  onClick={() => show()}
                   href="#Home"
                   className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
                 >
@@ -32,7 +32,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  onClick={() => setNav(false)}
+                  onClick={() => show()}
                   href="#About"
                   className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
                 >
@@ -41,7 +41,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  onClick={() => setNav(false)}
+                  onClick={() => show()}
                   href="#Program"
                   className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
                 >
@@ -50,7 +50,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  onClick={() => setNav(false)}
+                  onClick={() => show()}
                   href="#works"
                   className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
                 >
@@ -59,16 +59,18 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  onClick={() => setNav(false)}
+                  onClick={() => show()}
                   href="#FAQs"
                   className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
                 >
                   FAQs
                 </a>
               </li>
-              <li className=" font-jost fw-black fs-sm lh-sm comn-btn text-white">
-                Get Started
-              </li>
+                <li>
+              <a href="" className=" font-jost fw-black fs-sm lh-sm comn-btn text-white">
+                  Get Started
+              </a>
+                </li>
             </ul>
           </nav>
         </div>

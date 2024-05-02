@@ -304,13 +304,13 @@
 
 /* nav icons */
 .nav-icn {
-  transition: 5s;
+  transition: 5s !important;
 }
 .nav-icn:hover {
   background: linear-gradient(146.43deg, #ff2801 1.77%, #ff6b0a 62.74%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 5s;
+  transition: 5s !important;
 }
 /* priloder */
 .loading-wave {
@@ -380,31 +380,24 @@
   }
 }
 
-
-@media (max-width: 991.7px) {
-  .mobileView {
-    flex-direction: column;
-    background: #000;
-    z-index: 30;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: -100%;
+@media (min-width: 768px) {
+  .bg-headerimg {
+    background-image: url("./assets/images/header-img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 810px;
   }
-  .setnavbutton {
-    position: absolute;
-    z-index: 40;
-    right: 12px;
-    top: 12px;
+ 
+  .icon-bar {
+    height: 217px;
+    width: 50px;
+    background-color: white;
+    border-radius: 1px;
   }
-  .overflow-hidden {
-    overflow: hidden !important;
+  .small-icn{
+    width: 37px;
   }
 }
-
 @media (min-width: 992px) {
   :root {
     /* font size */
@@ -463,21 +456,32 @@
   }
 }
 
-@media (min-width: 768px) {
-  .bg-headerimg {
-    background-image: url("./assets/images/header-img.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 810px;
+
+
+
+@media (max-width: 991.7px) {
+  .mobileView {
+    flex-direction: column;
+    background: #000;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
   }
- 
-  .icon-bar {
-    height: 217px;
-    width: 50px;
-    background-color: white;
-    border-radius: 1px;
+  .setnavbutton {
+    position: absolute;
+    z-index: 40;
+    right: 12px;
+    top: 12px;
   }
-  .small-icn{
-    width: 37px;
+  .overflow-hidden {
+    overflow: hidden !important;
+  }
+  .max-lg-overflow-hidden{
+    overflow: hidden !important;
   }
 }
