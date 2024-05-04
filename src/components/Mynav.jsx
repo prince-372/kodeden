@@ -43,7 +43,7 @@ const Mynav = () => {
                 <a
                   onClick={() => show()}
                   href="#Program"
-                  className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
+                  className=" fw-medium fs-sm1 lh-sm font-jost text-lightgray nav-icn"
                 >
                   Program
                 </a>
@@ -52,7 +52,7 @@ const Mynav = () => {
                 <a
                   onClick={() => show()}
                   href="#works"
-                  className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
+                  className=" fw-medium fs-sm1 lh-sm font-jost text-lightgray nav-icn"
                 >
                   How it works
                 </a>
@@ -61,13 +61,13 @@ const Mynav = () => {
                 <a
                   onClick={() => show()}
                   href="#FAQs"
-                  className=" fw-medium fs-sm lh-sm font-jost text-lightgray nav-icn"
+                  className=" fw-medium fs-sm1 lh-sm font-jost text-lightgray nav-icn"
                 >
                   FAQs
                 </a>
               </li>
                 <li>
-              <a href="" className=" font-jost fw-black fs-sm lh-sm comn-btn text-white">
+              <a href="" className=" font-jost fw-black fs-sm1 lh-sm comn-btn text-white">
                   Get Started
               </a>
                 </li>
