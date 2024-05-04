@@ -77,7 +77,7 @@ const Mynav = () => {
         <label
           className="overflow-hidden d-lg-none  setnavbutton"
           onClick={show}
-        >
+        >    
           <Hamburger
             toggle={setNav}
             toggled={nav}
