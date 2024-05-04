@@ -12,7 +12,7 @@ const Software = () => {
          <h2 className=' font-jost fw-medium fs-xl1 lh-xl1 max-w-1057 text-center text-white'>“From Confused to Coder”: Kodeden's Exclusive 6-Month <span className='gradint-clr'>Software Engineering</span> Course </h2>
          <p className=' font-jost fw-normal fs-sm1 lh-sm text-lightwhite text-center '>Through twice-weekly live lectures and at-home exercises, you’ll:</p>
          <p className=' font-jost fw-normal fs-sm1 lh-sm text-lightgray max-w-677 text-center mx-auto '>Learn everything you need to know to break into tech from senior engineers with experience at Apple, Amazon, and the DOD.</p>
-         <div className="row max-w-964 mx-auto pt-lg-88 pt-20 justify-content-center  ">
+         <di  v className="row max-w-964 mx-auto pt-lg-88 pt-20 justify-content-center  ">
           <div className="col-lg-4 col-md-6 col-12">
               <div className='soft-card  d-flex flex-column justify-content-end position-relative group'>
                     <p className=' font-jost fw-semibold fs-lg1 lh-xl text-lightgray m-0 group'>01</p>
@@ -43,7 +43,7 @@ const Software = () => {
                     <img className=' w-144 h-166 position-absolute top-0 end-0 ' src={many} alt="cartoon" />
               </div>
           </div>
-         </div>
+         </di>
       </div>
     </div>
   )

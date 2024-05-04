@@ -13,7 +13,7 @@ const Kodeden = () => {
               <h2 className=' font-jost fw-medium fs-xl1 lh-xl1 text-white text-center text-lg-start text-capitalize '>our Guarantee</h2>
               <p className=' font-jost fw-normal fs-lg lh-lg1 text-lightgray1 max-w-592 mx-auto mx-lg-0  text-center text-lg-start'>If you decide coding isn’t right for you within 15 days of starting the program, we’ll give you your money back. </p>
               <p className=' font-jost fw-semibold fs-sm1 lh-sm gradint-clr text-center text-lg-start'>I want to become a software engineer in 6 months!</p>
-              <div className=' d-inline-block d-flex justify-content-center justify-content-lg-start mt-5 mt-sm-0 '>
+              <div className=' d-inline-block d-flex justify-content-center justify-content-lg-start mt-md-5 '>
                   <Commanbtn text='Book a Call NOW'/>
               </div>
           </div>
