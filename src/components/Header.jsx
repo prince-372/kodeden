@@ -15,7 +15,7 @@ const Header = () => {
         <span className=" d-flex justify-content-center align-items-center  "><img className=" w-100 h-lg-550 " src={student} alt="student" /></span>
         <p className=" fs-lg fw-semibold font-jost lh-md1 text-center text-white pt-4 text-uppercase ">Become a <span className="gradint-clr">Software</span> Engineer Now!</p>
         <p className=" fw-normal fs-sm1 font-jost lh-sm1 text-lightgray1 text-center ">No Math or Science Background Needed</p>
-        <span className=" d-flex  justify-content-center ">
+        <span className=" d-flex  justify-content-center mt-md-4 ">
           <Commanbtn  text='Book a Call NOW'/>
         </span>
       </div>
