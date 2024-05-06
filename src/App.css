@@ -126,6 +126,11 @@
   background-size: cover;
   min-height: 540px;
 }
+.student-img{
+  max-width: 996px;
+  max-height: 476px;
+}
+
 
 /* max-width */
 .max-w-1089 {
