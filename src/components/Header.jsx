@@ -6,7 +6,7 @@ import { Corveline, Inlinked, Insta, Taligram, Twiter } from "./Icons";
 const Header = () => {
   return (
     <>
-      <div id="Home" className=" container pt-73 pt-5  position-relative overflow-hidden ">
+      <div id="Home" className=" container pt-73 md:pt-5 pt-3  position-relative overflow-hidden ">
         <span className=" position-absolute corveline d-none d-md-block"><Corveline/></span>
         <p className=" fw-semibold fs-xl lh-lg1 font-jost text-center text-white text-uppercase max-w-1089">
           Start the Mini-Course: <span className="gradint-clr">Rapidly Learning New Technical Skills</span>
